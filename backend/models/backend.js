@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
-const { sequelize } = require('../database/database');
+const { sequelize } = require('../database/configuration');
 
 
-const Adition = sequelize.define('backend', {
+const Backend = sequelize.define('backend', {
     id: {
         type: Sequelize.INTEGER,
         primaryKey: true

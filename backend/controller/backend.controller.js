@@ -7,7 +7,7 @@ export async function saveBackend(req, res) {
         let valor2 = parseInt(req.params.valor2);
         let resultado = valor1 + valor2;
         
-        const newAdition = await Adition.create({
+        const newAdition = await Backend.create({
             valor1,
             valor2,
             result
